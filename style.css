@@ -1,0 +1,212 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400;900&family=Oranienbaum&display=swap');
+
+/* Reset Default Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* 🔹 Body Styling */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: 'Oranienbaum', serif;
+    padding-top: 320px;
+    text-align: center;
+}
+
+/* 🔹 Top Banner */
+.top-banner {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.top-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.top-banner:hover img {
+    transform: scale(1.05);
+}
+
+/* 🔹 Container */
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 320px;
+}
+
+/* 🔹 Profile Section */
+.profile-container {
+    background-color: #2C2C34;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+/* 🔹 Separator Line */
+.separator {
+    width: 80%;
+    height: 2px;
+    background-color: white;
+    border: none;
+    margin: 15px auto;
+    opacity: 0.6;
+}
+
+/* 🔹 Headings */
+h1 {
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 40px;
+    color: #2C2C34;
+    font-weight: bold;
+}
+
+/* 🔹 Paragraphs */
+p {
+    font-size: 22px;
+}
+
+/* 🔹 Navigation */
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    font-size: 20px;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #2C2C34;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: black;
+}
+
+/* 🔹 Project Section */
+.project-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 30px auto;
+    background: #2C2C34;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 🔹 Project Image */
+.project-image {
+    width: 55%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.project-image img:hover {
+    transform: scale(1.05);
+}
+
+/* 🔹 Project Info */
+.project-info {
+    width: 40%;
+    text-align: left;
+    color: white;
+}
+
+.project-info h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.project-info p {
+    font-size: 18px;
+}
+
+/* 🔹 Social Links */
+.social-links {
+    margin-top: 15px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 10px;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+/* 🔹 About Me Section */
+.about-container {
+    display: flex;
+    align-items: center;
+    background: #222; /* Dark background for contrast */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+}
+
+.about-image img {
+    width: 180px;
+    height: 180px;
+    border-radius: 10px; /* Square shape */
+    object-fit: cover;
+    border: 3px solid #fff;
+    margin-right: 20px;
+}
+
+.about-info {
+    flex: 1;
+}
+
+.about-info h2 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.about-info p {
+    font-size: 18px;
+    color: #ddd;
+    line-height: 1.6;
+}
+
+
