@@ -12,9 +12,9 @@
 
 /* 🔹 Body Styling */
 body {
-    background-color: #A0A0A0; /* Black background */
-    color: #FFFFFF; /* White text for better contrast */
-    font-family: 'Oranienbaum', serif;
+    background-color: #010409; /* Black background */
+    color: #9097A0; /* White text for better contrast */
+    font-family: 'Comic-Sans', sans-serif;
     padding-top: 320px;
     text-align: center;
 }
@@ -73,14 +73,14 @@ body {
 
 /* 🔹 Headings */
 h1 {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'comic-sans', sans-serif;
     font-size: 60px;
     color: black;
     font-weight: bold;
 }
 
 h2 {
-    font-family: 'Londrina Solid', sans-serif;
+    font-family: 'comic-sans', sans-serif;
     font-size: 50px;
     color: black;
     font-weight: bold;
