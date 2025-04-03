@@ -12,9 +12,9 @@
 
 /* 🔹 Body Styling */
 body {
-    background-color: #010409; /* Black background */
-    color: #9097A0; /* White text for better contrast */
-    font-family: 'Comic-Sans', sans-serif;
+    background-color: #A0A0A0; /* Black background */
+    color: #FFFFFF; /* White text for better contrast */
+    font-family: 'comic-sans', serif;
     padding-top: 320px;
     text-align: center;
 }
@@ -73,23 +73,23 @@ body {
 
 /* 🔹 Headings */
 h1 {
-    font-family: 'comic-sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-size: 60px;
-    color: white;
+    color: black;
     font-weight: bold;
 }
 
 h2 {
-    font-family: 'comic-sans', sans-serif;
+    font-family: 'Londrina Solid', sans-serif;
     font-size: 50px;
-    color: white;
+    color: black;
     font-weight: bold;
 }
 
 h3 {
     font-size: 35px;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 /* 🔹 Paragraphs */
@@ -122,7 +122,7 @@ nav a:hover {
     align-items: center;
     width: 90%;
     margin: 50px auto;
-    background: #9097A0; /* White box */
+    background: #D0D0D0; /* White box */
     color: black;
     padding: 30px;
     border-radius: 12px;
@@ -189,7 +189,7 @@ nav a:hover {
 .about-container {
     display: flex;
     align-items: center;
-    background: #9097A0; /* White box */
+    background: #FFFFFF; /* White box */
     color: black;
     padding: 40px;
     border-radius: 12px;
