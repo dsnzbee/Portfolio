@@ -75,21 +75,21 @@ body {
 h1 {
     font-family: 'comic-sans', sans-serif;
     font-size: 60px;
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
 h2 {
     font-family: 'comic-sans', sans-serif;
     font-size: 50px;
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
 h3 {
     font-size: 35px;
     font-weight: bold;
-    color: black;
+    color: white;
 }
 
 /* 🔹 Paragraphs */
@@ -122,7 +122,7 @@ nav a:hover {
     align-items: center;
     width: 90%;
     margin: 50px auto;
-    background: #D0D0D0; /* White box */
+    background: #9097A0; /* White box */
     color: black;
     padding: 30px;
     border-radius: 12px;
@@ -189,7 +189,7 @@ nav a:hover {
 .about-container {
     display: flex;
     align-items: center;
-    background: #FFFFFF; /* White box */
+    background: #9097A0; /* White box */
     color: black;
     padding: 40px;
     border-radius: 12px;
